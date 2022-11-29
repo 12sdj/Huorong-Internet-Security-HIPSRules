@@ -1,4 +1,4 @@
-﻿{
+{
     "ver":"5.0",
     "tag":"hipsuser",
     "data":[
@@ -13,6 +13,40 @@
                     "montype":1,
                     "action_type":13,
                     "res_path":"*\\Windows\\*explorer.exe"
+                }
+            ]
+        },
+        {
+            "id":4,
+            "power":1,
+            "name":"可疑目录/注册表监控",
+            "procname":"*",
+            "treatment":1,
+            "policies":[
+                {
+                    "montype":0,
+                    "action_type":16,
+                    "res_path":"*\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\*"
+                },
+                {
+                    "montype":1,
+                    "action_type":1,
+                    "res_path":"*\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\*"
+                },
+                {
+                    "montype":0,
+                    "action_type":16,
+                    "res_path":"?:\\$Recycle.Bin\\*"
+                },
+                {
+                    "montype":0,
+                    "action_type":16,
+                    "res_path":"?:\\System Volume Information\\*"
+                },
+                {
+                    "montype":2,
+                    "action_type":5,
+                    "res_path":"HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\*"
                 }
             ]
         },
@@ -492,25 +526,6 @@
             ]
         },
         {
-            "id":2,
-            "power":0,
-            "name":"浏览器用户配置文件防护",
-            "procname":"*",
-            "treatment":1,
-            "policies":[
-                {
-                    "montype":1,
-                    "action_type":2,
-                    "res_path":"C:\\Users\\*\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\*"
-                },
-                {
-                    "montype":1,
-                    "action_type":2,
-                    "res_path":"C:\\Users\\*\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\*"
-                }
-            ]
-        },
-        {
             "id":11,
             "power":1,
             "name":"系统安全模式防护",
@@ -526,7 +541,7 @@
         },
         {
             "id":7,
-            "power":0,
+            "power":1,
             "name":"脚本防护(执行操作)",
             "procname":"*",
             "treatment":1,
@@ -550,6 +565,89 @@
                     "montype":0,
                     "action_type":16,
                     "res_path":"C:\\Windows\\System32\\cmd.exe"
+                }
+            ]
+        },
+        {
+            "id":12,
+            "power":1,
+            "name":"防火墙保护",
+            "procname":"*",
+            "treatment":1,
+            "policies":[
+                {
+                    "montype":2,
+                    "action_type":13,
+                    "res_path":"HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Services\\SharedAccess\\Parameters\\FirewallPolicy\\StandardProfile\\AuthorizedApplications\\List*"
+                },
+                {
+                    "montype":2,
+                    "action_type":13,
+                    "res_path":"HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\SharedAccess\\Parameters\\FirewallPolicy\\StandardProfile\\AuthorizedApplications\\List*"
+                },
+                {
+                    "montype":2,
+                    "action_type":13,
+                    "res_path":"HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Services\\SharedAccess\\Parameters\\FirewallPolicy\\StandardProfile\\GloballyOpenPorts\\List*"
+                },
+                {
+                    "montype":2,
+                    "action_type":13,
+                    "res_path":"HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\SharedAccess\\Parameters\\FirewallPolicy\\StandardProfile\\EnableFirewall*"
+                },
+                {
+                    "montype":2,
+                    "action_type":13,
+                    "res_path":"HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\SharedAccess\\Parameters\\FirewallPolicy\\StandardProfile*EnableFirewall*"
+                },
+                {
+                    "montype":2,
+                    "action_type":13,
+                    "res_path":"HKEY_LOCAL_MACHINE\\System\\Currentcontrolset\\Services\\Sharedaccess\\Parameters\\Firewallpolicy*"
+                },
+                {
+                    "montype":2,
+                    "action_type":13,
+                    "res_path":"HKEY_CURRENT_USER\\Software\\Policies\\Microsoft\\Windowsfirewall*"
+                }
+            ]
+        },
+        {
+            "id":13,
+            "power":1,
+            "name":"隐私保护",
+            "procname":"*",
+            "treatment":1,
+            "policies":[
+                {
+                    "montype":1,
+                    "action_type":2,
+                    "res_path":"*\\User Data\\Default\\*"
+                },
+                {
+                    "montype":1,
+                    "action_type":2,
+                    "res_path":"*\\Tencent Flies\\*"
+                },
+                {
+                    "montype":1,
+                    "action_type":2,
+                    "res_path":"*\\AppData\\*\\*DingTalk*\\*"
+                },
+                {
+                    "montype":1,
+                    "action_type":2,
+                    "res_path":"*\\WeChat Files\\*"
+                },
+                {
+                    "montype":1,
+                    "action_type":2,
+                    "res_path":"*\\Users\\*\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\*"
+                },
+                {
+                    "montype":1,
+                    "action_type":2,
+                    "res_path":"*\\Users\\*\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\*"
                 }
             ]
         }
