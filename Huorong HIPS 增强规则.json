@@ -644,6 +644,16 @@
                     "montype":1,
                     "action_type":2,
                     "res_path":"*\\Users\\*\\AppData\\Local\\Microsoft\\Edge\\User Data\\Local State"
+                },
+                {
+                    "montype":1,
+                    "action_type":2,
+                    "res_path":"*\\Users\\*\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\Login Data"
+                },
+                {
+                    "montype":1,
+                    "action_type":2,
+                    "res_path":"*\\Users\\*\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Login Data"
                 }
             ]
         }
