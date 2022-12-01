@@ -3,23 +3,9 @@
     "tag":"hipsuser",
     "data":[
         {
-            "id":3,
-            "power":1,
-            "name":"IE篡改防护",
-            "procname":"*",
-            "treatment":1,
-            "policies":[
-                {
-                    "montype":1,
-                    "action_type":13,
-                    "res_path":"*\\Windows\\*explorer.exe"
-                }
-            ]
-        },
-        {
             "id":4,
             "power":1,
-            "name":"可疑目录/注册表监控",
+            "name":"可疑行为监控",
             "procname":"*",
             "treatment":1,
             "policies":[
@@ -541,8 +527,8 @@
         },
         {
             "id":7,
-            "power":1,
-            "name":"脚本防护(执行操作)",
+            "power":0,
+            "name":"脚本执行防护",
             "procname":"*",
             "treatment":1,
             "policies":[
@@ -648,6 +634,16 @@
                     "montype":1,
                     "action_type":2,
                     "res_path":"*\\Users\\*\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\*"
+                },
+                {
+                    "montype":1,
+                    "action_type":2,
+                    "res_path":"*\\Users\\*\\AppData\\Local\\Google\\Chrome\\User Data\\Local State"
+                },
+                {
+                    "montype":1,
+                    "action_type":2,
+                    "res_path":"*\\Users\\*\\AppData\\Local\\Microsoft\\Edge\\User Data\\Local State"
                 }
             ]
         }
