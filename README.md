@@ -18,3 +18,6 @@ MIT License
 10.防火墙保护(Version: 2022_11_30)  
 #### 支持版本：  
 火绒5.0  
+#### 什么是HIPS？
+> HIPS，英文“Host Intrusion Prevent System”的缩写，国内通常翻译为“基于主机的入侵防御系统”，通俗来说就是程序动作(API)拦截器，作用就是对程序运行中调用的危险API进行拦截，经用户自行判断确认后手工选择阻止或是放行。HIPS的防护一般分为三个防护体系：AD(Application Defend)应用程序防御体系、RD(Registry Defend)注册表防御体系、FD(File Defend)文件防御体系。它通过可定制的规则对本地的运行程序、注册表的读写操作、以及文件读写操作进行判断并允许或禁止。
+
