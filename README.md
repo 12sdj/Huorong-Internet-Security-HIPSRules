@@ -20,11 +20,11 @@ MIT License
 火绒5.0  
 ## Q&A
 #### 如何打开除高级防护外，火绒最强级别的防护
-第一步，打开设置
+第一步，打开设置   
 <img width="615" alt="1" src="https://user-images.githubusercontent.com/103876733/205242567-bfbf4b99-de49-4c4a-b7f9-ef0a0fb459a5.png">
 * 将扫描时机调整图中方案  
-
-  ![2](https://user-images.githubusercontent.com/103876733/205242767-f19ab8ae-2b7e-44ba-982f-c9c7e71f1256.jpg)
+  转到“病毒防护-文件实时监控”  
+  <img width="615" alt="2" src="https://user-images.githubusercontent.com/103876733/205242962-50def427-3298-4918-b0cf-e6af502855fc.png">
 
   
 #### 什么是HIPS？
