@@ -20,7 +20,7 @@ MIT License
 火绒5.0  
 ## Q&A
 #### 如何打开除高级防护外，火绒最强级别的防护？
-第一步，打开设置   
+打开设置   
 <img width="615" alt="1" src="https://user-images.githubusercontent.com/103876733/205242567-bfbf4b99-de49-4c4a-b7f9-ef0a0fb459a5.png">
 * 将扫描时机调整图中方案  
   转到“病毒防护-文件实时监控”  
