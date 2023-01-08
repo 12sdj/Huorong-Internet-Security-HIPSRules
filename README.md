@@ -1,4 +1,4 @@
-# Huorong Internet Security EDS (HIPS模块增强)
+# HuorongInternetSecurity-HIPSRules (HIPS模块增强)
 ![image](https://img.shields.io/badge/License-MIT-orange) 
 ## 开发者  
 [12sdj](https://github.com/12sdj)
