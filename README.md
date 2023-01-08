@@ -18,7 +18,7 @@ MIT License
 10.防火墙保护(Version: 2022_11_30)  
 #### 支持版本：  
 火绒5.0  
-## Q&A
+## 实现火绒最高等级防护
 #### 如何打开除高级防护外，火绒最强级别的防护？
 打开设置   
 <img width="615" alt="1" src="https://user-images.githubusercontent.com/103876733/205242567-bfbf4b99-de49-4c4a-b7f9-ef0a0fb459a5.png">
