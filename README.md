@@ -19,10 +19,10 @@ MIT License
 #### 支持版本：  
 火绒5.0  
 ## 使用方法   
-#### 将火绒防护调整到最高值  
+#### 1.将火绒防护调整到最高值  
 > 高级防护需要将火绒防护调整到最高值后，才能更好地发挥其效果      
 
-在火绒的“设置”中：   
+**在火绒的“设置”中**   
 <img width="615" alt="1" src="https://user-images.githubusercontent.com/103876733/205242567-bfbf4b99-de49-4c4a-b7f9-ef0a0fb459a5.png">
 * 将扫描时机调整图中方案  
   转到“病毒防护-文件实时监控”  
@@ -35,9 +35,9 @@ MIT License
   
 #### 什么是HIPS？
 HIPS，英文“Host Intrusion Prevent System”的缩写，通常翻译为“基于主机的入侵防御系统”，通俗来说就是程序动作(API)拦截器，作用就是对程序运行中调用的危险API进行拦截，经用户自行判断确认后手工选择阻止或是放行。    
-HIPS的防护一般分为三个防护体系：
-AD(Application Defend)应用程序防御体系；   
-RD(Registry Defend)注册表防御体系；   
-FD(File Defend)文件防御体系。   
+HIPS的防护一般分为三个防护体系：     
+1. AD(Application Defend)应用程序防御体系；    
+2. RD(Registry Defend)注册表防御体系；    
+3. FD(File Defend)文件防御体系。    
 它通过可定制的规则对本地的运行程序、注册表的读写操作、以及文件读写操作进行判断并允许或禁止。
 
