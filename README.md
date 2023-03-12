@@ -1,10 +1,10 @@
-# Huorong Internet Security HIPS Rules (HIPS模块增强)
+# Huorong Internet Security HIPS Rules (HUORONG HIPS规则)
 ![image](https://img.shields.io/badge/License-MIT-orange) 
-## 开发者  
+## 编写者  
 [12sdj](https://github.com/12sdj)
 ## 开源协议
 MIT License
-## 关于条目
+## 前言
 #### 防护方面：
 1.隐私保护(Version: 2022_12_1)  
 2.杀软自保(Version: 2022_11_17)   
