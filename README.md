@@ -38,6 +38,7 @@ HIPS，英文“Host Intrusion Prevent System”的缩写，通常翻译为“�
 HIPS的防护一般分为三个防护体系：     
 1. AD(Application Defend)应用程序防御体系；    
 2. RD(Registry Defend)注册表防御体系；    
-3. FD(File Defend)文件防御体系。    
+3. FD(File Defend)文件防御体系。   
+ 
 它通过可定制的规则对本地的运行程序、注册表的读写操作、以及文件读写操作进行判断并允许或禁止。
 
